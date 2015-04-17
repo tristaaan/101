@@ -20,7 +20,7 @@ the method is not available in a widely supported JS version (currently ES5).
 ### Why not release each as individual modules?
 I usually agree with this philosophy; however, while in practice, adherence to the module-pattern
 can become quite annoying for micro-modules (like those in 101):
-* Micro-modules existance throughout a project can change very frequently, because of this one may find
+* Micro-modules existence throughout a project can change very frequently, because of this one may find
 themselves constantly updating their package.json (repeatedly adding and removing the same micro-modules).
 * Unbundling micro-modules can lead to projects with hundreds of dependencies which can be tedious to maintain.
 
